@@ -24,7 +24,8 @@ and it will be installed in /usr/local/bin/encrypt_GSM_A5-1
 Usage:
 
 encrypt_GSM_A5-1 [ key ] [ Input Path ] [ Output Path ]
-                 key: 64 bit HexString
+
+key: 64 bit HexString
 
 Example: 
 
