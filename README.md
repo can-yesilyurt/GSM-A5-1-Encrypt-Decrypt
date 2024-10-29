@@ -1,10 +1,12 @@
 # GSM-A5-1-Encrypt-Decrypt
 Implementation of A5/1 algorithm used in GSM for voice and SMS encryption.  It is designed to encrypt/decrypt any local file or file stream.
 
-Install:
-
+Download:
+```
 git clone https://github.com/can-yesilyurt/GSM-A5-1-Encrypt-Decrypt.git
-
+```
+Install from source:
+```
 cd GSM-A5-1-Encrypt-Decrypt
 
 mkdir build
@@ -16,7 +18,7 @@ cmake ../
 cmake --build .
 
 sudo cmake --install .
-
+```
 and it will be installed on /usr/local/bin/encrypt_GSM_A5-1
 
 Usage:
@@ -27,15 +29,15 @@ encrypt_GSM_A5-1 [ key ] [ Input Path ] [ Output Path ]
 Example: 
 
 In GSM-A5-1-Encrypt-Decrypt/Test_Files/
-
+```
 encrypt_GSM_A5-1 "1122334455aabbcc" ./test_image_1.png ./test_image_1.png_enc
-
+```
 > ./test_image_1.png_enc
 
 Same command with same key would decrypt the encrypted file
-
+```
 encrypt_GSM_A5-1 "1122334455aabbcc" ./test_image_1.png_enc ./test_image_1_dec.png
-
+```
 > ./test_image_1_dec.png
 
 
