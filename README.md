@@ -7,23 +7,26 @@ git clone https://github.com/can-yesilyurt/GSM-A5-1-Encrypt-Decrypt.git
 ```
 ## Install:
 
-# [Pre-build binary](https://github.com/can-yesilyurt/GSM-A5-1-Encrypt-Decrypt/tree/main/prebuild_bin) for MacOS.
+#### [Pre-build binary](https://github.com/can-yesilyurt/GSM-A5-1-Encrypt-Decrypt/tree/main/prebuild_bin) - build for MacOS.
 
-***
-
-# From source:
+## Or Install from source:
 
 ```
 cd GSM-A5-1-Encrypt-Decrypt
-
+```
+```
 mkdir build
-
+```
+```
 cd build
-
+```
+```
 cmake ../
-
+```
+```
 cmake --build .
-
+```
+```
 sudo cmake --install .
 ```
 and it will be installed in /usr/local/bin/encrypt_GSM_A5-1
