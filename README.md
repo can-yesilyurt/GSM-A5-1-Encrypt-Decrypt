@@ -19,7 +19,7 @@ cmake --build .
 
 sudo cmake --install .
 ```
-and it will be installed on /usr/local/bin/encrypt_GSM_A5-1
+and it will be installed in /usr/local/bin/encrypt_GSM_A5-1
 
 Usage:
 
