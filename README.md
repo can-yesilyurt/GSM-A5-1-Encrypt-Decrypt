@@ -5,7 +5,14 @@ Implementation of A5/1 algorithm used in GSM for voice and SMS encryption.  It i
 ```
 git clone https://github.com/can-yesilyurt/GSM-A5-1-Encrypt-Decrypt.git
 ```
-## Install from source:
+## Install:
+
+# [Pre-build binary](https://github.com/can-yesilyurt/GSM-A5-1-Encrypt-Decrypt/tree/main/prebuild_bin) for MacOS.
+
+***
+
+# From source:
+
 ```
 cd GSM-A5-1-Encrypt-Decrypt
 
